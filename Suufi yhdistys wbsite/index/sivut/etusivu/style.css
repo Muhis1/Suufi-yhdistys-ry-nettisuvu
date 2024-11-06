@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+min-height: 0vh;
+width: 100%;
+background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgb(7, 228, 118)),url(kuvat/hero.jpg);
+background-position: center;
+background-size:30%;
+position: relative;
+
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a{
+    right: 6.5%;
+    position: relative;
+    width: 10px;
+    height: auto;
+}
+nav img{
+    width: 150px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 9px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 16px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #18511d;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+h1{
+    text-align: left;
+    top: 50%;
+    left: 50%;
+     color: rgb(0, 0, 0);
+}
+h2{
+    text-align: left;
+    top: 50%;
+    left: 50%;
+     color: rgb(0, 0, 0);
+}
+textarea[name=foo] {
+    resize: none;
+  }
+
+
+
+
